@@ -1,0 +1,42 @@
+
+Yma.profile.services.GenericService#findById(Ljava/lang/String;)Lma/profile/utils/IParent;r
+h/C:/Users/ismai/IdeaProjects/kanban/ProfileService/src/main/java/ma/profile/services/GenericService.java- -("startingBlock*‚
+startingBlock- -( ‰
+†
+, ,(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+idjava.lang.StringV
+T
+- -(
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*¿
+1. .( Ÿ
+œ
+. .( /
+%0)ma.profile.Repositories.GenericRepository"__id*Y
+
+__unknown_file (=*;$
+"ma.profile.services.GenericService"
+genericRepositoryz
+x
+.> .([
+%1"__declareFunction*S
+
+__unknown_file (75
+3__sonar_lambda_1$ma.profile.services.GenericService"
+. .(v
+"":"
+- -(
+idjava.lang.StringB&$
+"ma.profile.services.GenericServiceH

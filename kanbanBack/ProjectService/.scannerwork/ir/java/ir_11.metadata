@@ -1,0 +1,7 @@
+ma.project.services.GenericService#delete(Ljava/lang/String;)Lma/project/utils/IParent;
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+==
+setDeletedAt ma.project.utils.IParent#setDeletedAt(Ljava/util/Date;)V
+save ma.project.services.GenericService#save(Lma/project/utils/IParent;)Lma/project/utils/IParent;
+findById ma.project.services.GenericService#findById(Ljava/lang/String;)Lma/project/utils/IParent;

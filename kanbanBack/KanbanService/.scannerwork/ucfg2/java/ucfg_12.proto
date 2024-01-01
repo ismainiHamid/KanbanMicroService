@@ -1,0 +1,42 @@
+
+Wma.kanban.services.GenericService#findById(Ljava/lang/String;)Lma/kanban/utils/IParent;p
+f/C:/Users/ismai/IdeaProjects/kanban/KanbanService/src/main/java/ma/kanban/services/GenericService.java- -("startingBlock*Ç
+startingBlock- -( â
+Ü
+, ,(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+idjava.lang.StringV
+T
+- -(
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*º
+1. .( ù
+ö
+. .( .
+%0(ma.kanban.repositories.GenericRepository"__id*X
+
+__unknown_file (<*:#
+!ma.kanban.services.GenericService"
+genericRepositoryy
+w
+.> .([
+%1"__declareFunction*R
+
+__unknown_file (64
+2__sonar_lambda_1$ma.kanban.services.GenericService"
+. .(v
+"":"
+- -(
+idjava.lang.StringB%#
+!ma.kanban.services.GenericServiceH

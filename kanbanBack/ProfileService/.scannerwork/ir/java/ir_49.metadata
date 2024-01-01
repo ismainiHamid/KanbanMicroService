@@ -1,0 +1,4 @@
+ma.profile.security.config.SecurityConfig#inMemoryUserDetailsManager()LInMemoryUserDetailsManager;
+null
+==
+passwordEncoder ma.profile.security.config.SecurityConfig#passwordEncoder()LPasswordEncoder;

@@ -1,0 +1,8 @@
+ma.project.services.GenericService#update(Lma/project/utils/IParent;)Lma/project/utils/IParent;
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+==
+getId ma.project.utils.IParent#getId()Ljava/lang/String;
+setUpdatedAt ma.project.utils.IParent#setUpdatedAt(Ljava/util/Date;)V
+save ma.project.services.GenericService#save(Lma/project/utils/IParent;)Lma/project/utils/IParent;
+findById ma.project.services.GenericService#findById(Ljava/lang/String;)Lma/project/utils/IParent;

@@ -1,0 +1,62 @@
+
+cma.project.controllers.GenericController#save(Lma/project/utils/IParent;)Lma/project/utils/IParent;x
+n/C:/Users/ismai/IdeaProjects/kanban/ProjectService/src/main/java/ma/project/controllers/GenericController.java ("startingBlock*ÿ
+startingBlock ((v
+t
+ (
+%2"
+__annotate*+
+
+__unknown_file (
+PostMapping*)
+
+__unknown_file (
+
+objectSv
+t
+ (
+%3"
+__annotate*+
+
+__unknown_file (
+RequestBody*)
+
+__unknown_file (
+
+objectSo
+m
+! ('
+objectS"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*Ï
+1 (›
+˜
+ ((
+%0"ma.project.services.GenericService"__id*\
+
+__unknown_file (@*>*
+(ma.project.controllers.GenericController"
+genericServiceŠ‡
+ (*
+%1S"]ma.project.services.GenericService#save(Lma/project/utils/IParent;)Lma/project/utils/IParent;*F
+
+__unknown_file (*
+(
+%0"ma.project.services.GenericService*)
+
+__unknown_file (
+
+objectS2 save(Lma/project/utils/IParent;)"
+ (+	
+
+%1S:
+ ('
+objectSB,*
+(ma.project.controllers.GenericControllerH

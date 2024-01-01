@@ -1,0 +1,69 @@
+
+]ma.profile.services.GenericService#save(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;r
+h/C:/Users/ismai/IdeaProjects/kanban/ProfileService/src/main/java/ma/profile/services/GenericService.java ("startingBlock*\
+2K (OH
+F
+K (O
+%1"__id*.
+
+__unknown_file (
+
+%3
+<nulltype>*
+1*ò
+3* (;Ÿ
+œ
+* (;/
+%4)ma.profile.Repositories.GenericRepository"__id*Y
+
+__unknown_file (=*;$
+"ma.profile.services.GenericService"
+genericRepository<
+:
+* (H
+%1"__id*"
+
+__unknown_file (
+
+%2*
+1*ê
+startingBlock (}
+{
+ (
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*)
+
+__unknown_file (
+
+objectSK
+I
+ (
+objectS"__annotation*"
+
+__unknown_file (
+
+%5*
+4*Â
+4 (ª
+§
+ ('
+%0boolean".java.util.Objects#nonNull(Ljava/lang/Object;)Z*1
+
+__unknown_file ("
+java.util.Objects*)
+
+__unknown_file (
+
+objectS*
+2
+3*!
+1 (Q"
+ (Q
+
+%1:
+ (
+objectSB&$
+"ma.profile.services.GenericServiceH

@@ -1,0 +1,63 @@
+
+_ma.profile.controllers.GenericController#findById(Ljava/lang/String;)Lma/profile/utils/IParent;x
+n/C:/Users/ismai/IdeaProjects/kanban/ProfileService/src/main/java/ma/profile/controllers/GenericController.java# #("startingBlock*£
+startingBlock# #(.Ä
+~
+" "(
+%2"
+__annotate**
+
+__unknown_file (
+
+GetMapping*4
+
+__unknown_file (
+
+idjava.lang.StringÉ
+Ä
+# #(#
+%3"
+__annotate*,
+
+__unknown_file (
+PathVariable*4
+
+__unknown_file (
+
+idjava.lang.Stringz
+x
+#+ #(-
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*“
+1$ $(õ
+ò
+$ $((
+%0"ma.profile.services.GenericService"__id*\
+
+__unknown_file (@*>*
+(ma.profile.controllers.GenericController"
+genericServiceçä
+$ $(*
+%1S"Yma.profile.services.GenericService#findById(Ljava/lang/String;)Lma/profile/utils/IParent;*F
+
+__unknown_file (*
+(
+%0"ma.profile.services.GenericService*4
+
+__unknown_file (
+
+idjava.lang.String2findById(Ljava/lang/String;)"
+$ $(+	
+
+%1S:"
+# #(-
+idjava.lang.StringB,*
+(ma.profile.controllers.GenericControllerH

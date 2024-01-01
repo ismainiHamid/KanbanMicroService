@@ -1,0 +1,3 @@
+ma.project.controllers.GenericController#update(Lma/project/utils/IParent;)Lma/project/utils/IParent;
+==
+update ma.project.services.GenericService#update(Lma/project/utils/IParent;)Lma/project/utils/IParent;

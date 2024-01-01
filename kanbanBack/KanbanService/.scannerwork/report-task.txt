@@ -1,0 +1,7 @@
+organization=ismainihamid
+projectKey=ismainihamid_kanbanservice
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.51767
+dashboardUrl=https://sonarcloud.io/dashboard?id=ismainihamid_kanbanservice
+ceTaskId=AYzBBUb3QO5q2r2QWxmz
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYzBBUb3QO5q2r2QWxmz

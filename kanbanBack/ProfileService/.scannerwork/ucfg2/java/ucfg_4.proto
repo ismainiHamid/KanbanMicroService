@@ -1,0 +1,62 @@
+
+ema.profile.controllers.GenericController#delete(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;x
+n/C:/Users/ismai/IdeaProjects/kanban/ProfileService/src/main/java/ma/profile/controllers/GenericController.java ("startingBlock*
+startingBlock (*x
+v
+ (
+%2"
+__annotate*-
+
+__unknown_file (
+DeleteMapping*)
+
+__unknown_file (
+
+objectSv
+t
+ ( 
+%3"
+__annotate*+
+
+__unknown_file (
+RequestBody*)
+
+__unknown_file (
+
+objectSo
+m
+# ()
+objectS"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*Ó
+1 (›
+˜
+ ((
+%0"ma.profile.services.GenericService"__id*\
+
+__unknown_file (@*>*
+(ma.profile.controllers.GenericController"
+genericServiceŽ‹
+ (,
+%1S"_ma.profile.services.GenericService#delete(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;*F
+
+__unknown_file (*
+(
+%0"ma.profile.services.GenericService*)
+
+__unknown_file (
+
+objectS2"delete(Lma/profile/utils/IParent;)"
+ (-	
+
+%1S:
+ ()
+objectSB,*
+(ma.profile.controllers.GenericControllerH

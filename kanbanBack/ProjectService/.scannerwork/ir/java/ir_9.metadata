@@ -1,0 +1,2 @@
+ma.project.services.GenericService#save(Lma/project/utils/IParent;)Lma/project/utils/IParent;
+java.util.Objects#nonNull(Ljava/lang/Object;)Z

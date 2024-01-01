@@ -1,0 +1,3 @@
+ma.kanban.controller.GenericController#delete(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;
+==
+delete ma.kanban.services.GenericService#delete(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;

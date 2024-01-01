@@ -1,0 +1,3 @@
+ma.kanban.controller.GenericController#findById(Ljava/lang/String;)Lma/kanban/utils/IParent;
+==
+findById ma.kanban.services.GenericService#findById(Ljava/lang/String;)Lma/kanban/utils/IParent;

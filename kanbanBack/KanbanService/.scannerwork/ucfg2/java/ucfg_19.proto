@@ -1,0 +1,21 @@
+
+@ma.kanban.controller.GenericController#findAll()Ljava/util/List;u
+k/C:/Users/ismai/IdeaProjects/kanban/KanbanService/src/main/java/ma/kanban/controller/GenericController.java ("1*
+1 (˜
+•
+ ('
+%0!ma.kanban.services.GenericService"__id*Z
+
+__unknown_file (>*<(
+&ma.kanban.controller.GenericController"
+genericService²¯
+ ('
+%1java.util.List";ma.kanban.services.GenericService#findAll()Ljava/util/List;*E
+
+__unknown_file ()
+'
+%0!ma.kanban.services.GenericService2	findAll()""
+ ((
+
+%1java.util.ListB*(
+&ma.kanban.controller.GenericControllerH

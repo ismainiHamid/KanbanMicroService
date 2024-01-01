@@ -1,0 +1,3 @@
+ma.profile.controllers.GenericController#update(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;
+==
+update ma.profile.services.GenericService#update(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;

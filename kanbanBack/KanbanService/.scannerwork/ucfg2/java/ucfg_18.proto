@@ -1,0 +1,47 @@
+
+ama.kanban.controller.GenericController#delete(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;u
+k/C:/Users/ismai/IdeaProjects/kanban/KanbanService/src/main/java/ma/kanban/controller/GenericController.java ("startingBlock*å
+startingBlock (x
+v
+ (
+%2"
+__annotate*-
+
+__unknown_file (
+DeleteMapping*)
+
+__unknown_file (
+
+objectSK
+I
+ (
+objectS"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ë
+1 (˜
+•
+ ('
+%0!ma.kanban.services.GenericService"__id*Z
+
+__unknown_file (>*<(
+&ma.kanban.controller.GenericController"
+genericService‰†
+ (,
+%1S"\ma.kanban.services.GenericService#delete(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;*E
+
+__unknown_file ()
+'
+%0!ma.kanban.services.GenericService*)
+
+__unknown_file (
+
+objectS2!delete(Lma/kanban/utils/IParent;)"
+ (-	
+
+%1S:
+ (
+objectSB*(
+&ma.kanban.controller.GenericControllerH

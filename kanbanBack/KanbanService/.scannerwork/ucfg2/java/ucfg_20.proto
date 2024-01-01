@@ -1,0 +1,63 @@
+
+\ma.kanban.controller.GenericController#findById(Ljava/lang/String;)Lma/kanban/utils/IParent;u
+k/C:/Users/ismai/IdeaProjects/kanban/KanbanService/src/main/java/ma/kanban/controller/GenericController.java# #("startingBlock*£
+startingBlock# #(.€
+~
+" "(
+%2"
+__annotate**
+
+__unknown_file (
+
+GetMapping*4
+
+__unknown_file (
+
+idjava.lang.Stringƒ
+€
+# #(#
+%3"
+__annotate*,
+
+__unknown_file (
+PathVariable*4
+
+__unknown_file (
+
+idjava.lang.Stringz
+x
+#+ #(-
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*Ì
+1$ $(˜
+•
+$ $('
+%0!ma.kanban.services.GenericService"__id*Z
+
+__unknown_file (>*<(
+&ma.kanban.controller.GenericController"
+genericServiceŠ‡
+$ $(*
+%1S"Wma.kanban.services.GenericService#findById(Ljava/lang/String;)Lma/kanban/utils/IParent;*E
+
+__unknown_file ()
+'
+%0!ma.kanban.services.GenericService*4
+
+__unknown_file (
+
+idjava.lang.String2findById(Ljava/lang/String;)"
+$ $(+	
+
+%1S:"
+# #(-
+idjava.lang.StringB*(
+&ma.kanban.controller.GenericControllerH

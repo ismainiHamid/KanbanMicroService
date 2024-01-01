@@ -1,0 +1,62 @@
+
+]ma.project.controllers.GenericController#delete(Ljava/lang/String;)Lma/project/utils/IParent;x
+n/C:/Users/ismai/IdeaProjects/kanban/ProjectService/src/main/java/ma/project/controllers/GenericController.java ("startingBlock*§
+startingBlock (,„
+
+ ("
+%2"
+__annotate*-
+
+__unknown_file (
+DeleteMapping*4
+
+__unknown_file (
+
+idjava.lang.Stringƒ
+€
+ (!
+%3"
+__annotate*,
+
+__unknown_file (
+PathVariable*4
+
+__unknown_file (
+
+idjava.lang.Stringz
+x
+) (+
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*Î
+1 (›
+˜
+ ((
+%0"ma.project.services.GenericService"__id*\
+
+__unknown_file (@*>*
+(ma.project.controllers.GenericController"
+genericService‰†
+ ((
+%1S"Wma.project.services.GenericService#delete(Ljava/lang/String;)Lma/project/utils/IParent;*F
+
+__unknown_file (*
+(
+%0"ma.project.services.GenericService*4
+
+__unknown_file (
+
+idjava.lang.String2delete(Ljava/lang/String;)"
+ ()	
+
+%1S:"
+ (+
+idjava.lang.StringB,*
+(ma.project.controllers.GenericControllerH

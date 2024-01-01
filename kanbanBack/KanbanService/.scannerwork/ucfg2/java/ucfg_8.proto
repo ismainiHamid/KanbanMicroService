@@ -1,0 +1,95 @@
+
+\ma.kanban.services.GenericService#delete(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;p
+f/C:/Users/ismai/IdeaProjects/kanban/KanbanService/src/main/java/ma/kanban/services/GenericService.java   ("startingBlock*Í
+startingBlock   (}
+{
+ (
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*)
+
+__unknown_file (
+
+objectSK
+I
+   (
+objectS"__annotation*"
+
+__unknown_file (
+
+%7*
+1*è
+
+1! !(åâ
+! !(*
+%0java.lang.String"1ma.kanban.utils.IParent#getId()Ljava/lang/String;*)
+
+__unknown_file (
+
+objectS2getId()ÜÉ
+! !(+
+%1S"Wma.kanban.services.GenericService#findById(Ljava/lang/String;)Lma/kanban/utils/IParent;*A
+
+__unknown_file (%#
+!ma.kanban.services.GenericService*4
+
+__unknown_file (
+
+%0java.lang.String2findById(Ljava/lang/String;)F
+D
+! !(,
+resultS"__id*%
+
+__unknown_file (	
+
+%1Sö
+ó
+" "(
+%2boolean"	__compare*"
+
+__unknown_file (
+!=*)
+
+__unknown_file (
+
+resultS*"
+
+__unknown_file (
+""20
+#  #($
+%3java.util.Date"java.util.Date`
+^
+# #(&
+%4"java.util.Date#<init>()V*2
+
+__unknown_file (
+
+%3java.util.Date—Œ
+# #('
+
+%5void"7ma.kanban.utils.IParent#setDeletedAt(Ljava/util/Date;)V*)
+
+__unknown_file (
+
+resultS*2
+
+__unknown_file (
+
+%3java.util.Date2setDeletedAt(Ljava/util/Date;)Å˛
+$ $(
+%6S"Zma.kanban.services.GenericService#save(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;*A
+
+__unknown_file (%#
+!ma.kanban.services.GenericService*)
+
+__unknown_file (
+
+resultS2save(Lma/kanban/utils/IParent;)"
+$ $(	
+
+%6S:
+   (
+objectSB%#
+!ma.kanban.services.GenericServiceH

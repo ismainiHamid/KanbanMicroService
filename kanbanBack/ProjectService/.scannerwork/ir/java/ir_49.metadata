@@ -1,0 +1,5 @@
+ma.project.controllers.ClientControllerTest#allClient()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+findAll ma.project.services.GenericService#findAll()Ljava/util/List;

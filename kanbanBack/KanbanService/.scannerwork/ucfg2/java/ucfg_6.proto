@@ -1,0 +1,69 @@
+
+Zma.kanban.services.GenericService#save(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;p
+f/C:/Users/ismai/IdeaProjects/kanban/KanbanService/src/main/java/ma/kanban/services/GenericService.java ("startingBlock*\
+2K (OH
+F
+K (O
+%1"__id*.
+
+__unknown_file (
+
+%3
+<nulltype>*
+1*
+3* (;ù
+ö
+* (;.
+%4(ma.kanban.repositories.GenericRepository"__id*X
+
+__unknown_file (<*:#
+!ma.kanban.services.GenericService"
+genericRepository<
+:
+* (H
+%1"__id*"
+
+__unknown_file (
+
+%2*
+1*Í
+startingBlock (}
+{
+ (
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*)
+
+__unknown_file (
+
+objectSK
+I
+ (
+objectS"__annotation*"
+
+__unknown_file (
+
+%5*
+4*¬
+4 (™
+ß
+ ('
+%0boolean".java.util.Objects#nonNull(Ljava/lang/Object;)Z*1
+
+__unknown_file ("
+java.util.Objects*)
+
+__unknown_file (
+
+objectS*
+2
+3*!
+1 (Q"
+ (Q
+
+%1:
+ (
+objectSB%#
+!ma.kanban.services.GenericServiceH

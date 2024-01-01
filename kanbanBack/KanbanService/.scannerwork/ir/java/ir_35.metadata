@@ -1,0 +1,2 @@
+ma.kanban.services.GenericService#save(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;
+java.util.Objects#nonNull(Ljava/lang/Object;)Z

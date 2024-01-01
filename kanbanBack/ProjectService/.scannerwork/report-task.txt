@@ -1,0 +1,7 @@
+organization=ismainihamid
+projectKey=ismainihamid_projectservice
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.51767
+dashboardUrl=https://sonarcloud.io/dashboard?id=ismainihamid_projectservice
+ceTaskId=AYzA_aapz00S9SXW7IOY
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYzA_aapz00S9SXW7IOY

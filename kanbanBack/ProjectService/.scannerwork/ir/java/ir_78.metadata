@@ -1,0 +1,3 @@
+ma.project.controllers.GenericController#findById(Ljava/lang/String;)Lma/project/utils/IParent;
+==
+findById ma.project.services.GenericService#findById(Ljava/lang/String;)Lma/project/utils/IParent;

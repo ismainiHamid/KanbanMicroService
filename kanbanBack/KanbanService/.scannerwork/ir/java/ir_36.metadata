@@ -1,0 +1,8 @@
+ma.kanban.services.GenericService#update(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+==
+findById ma.kanban.services.GenericService#findById(Ljava/lang/String;)Lma/kanban/utils/IParent;
+getId ma.kanban.utils.IParent#getId()Ljava/lang/String;
+save ma.kanban.services.GenericService#save(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;
+setUpdatedAt ma.kanban.utils.IParent#setUpdatedAt(Ljava/util/Date;)V
