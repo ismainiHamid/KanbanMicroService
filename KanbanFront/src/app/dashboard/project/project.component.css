@@ -1,0 +1,42 @@
+.icon-animate {
+  transform: rotate(0deg) !important;
+}
+
+.btn-create {
+  font-size: .9em;
+  border: .1em dashed rgba(0, 0, 0, .35);
+  color: rgba(0, 0, 0, .75);
+  font-weight: 400;
+  transition: .2s;
+}
+
+.btn-create i {
+  font-size: 1.35em;
+}
+
+.btn-create:hover {
+  color: #0077b5;
+  border-color: #0077b5;
+}
+
+.btn-search {
+  position: absolute;
+  top: -3px;
+  right: 0%;
+  color: rgba(0, 0, 0, .5);
+}
+
+table tr input.form-control, table tr button, table tr select.form-select {
+  height: 30px;
+  font-size: .95em;
+}
+
+.form-check-input:checked {
+  background-color: rgba(81,149,174,1);
+  border-color: rgba(81,149,174,1);
+}
+
+.add-active {
+  border:.1em dashed #E30425;
+  color: #E30425;
+}

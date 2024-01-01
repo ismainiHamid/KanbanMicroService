@@ -1,0 +1,52 @@
+<div class="card rounded-0 border-0">
+  <div class="card-body">
+    <form action="">
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <h3 class="fw-bold text-uppercase">Sign in</h3>
+        </div>
+
+        <div class="col-md-12 mb-4">
+          <div class="mb-4">
+            <label for="emailInput" class="pb-2">Email address</label>
+            <input type="email" class="form-control" id="emailInput">
+          </div>
+
+          <div class="position-relative mb-4">
+            <label for="passwordInput" class="pb-2">Password</label>
+            <input [type]="show ? 'text' : 'password'" class="form-control pe-5" id="passwordInput">
+
+            <button (click)="password()" type="button" ngClass="btn btn-show border-0">
+              <i [ngClass]="show ? 'bi bi-eye' :  'bi bi-eye-slash'"></i>
+            </button>
+          </div>
+
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="form-check form-switch mb-4">
+                <input class="form-check-input" type="checkbox" role="switch" id="rememberMeCheck">
+                <label class="form-check-label" for="rememberMeCheck">Remember Me</label>
+              </div>
+            </div>
+
+            <div class="col-md-4 text-end">
+              <a href="#" class="text-muted small text-decoration-underline">Forget password ?</a>
+            </div>
+          </div>
+
+          <div class="btn-sign-in text-center">
+            <button class="btn w-100 btn-sm py-2 border-0 shadow-sm">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-muted small">Don't have an account ?
+          <a routerLink="sign-up" class="text-danger">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,135 @@
+<div class="container-fluid p-0">
+  <div class="row g-0">
+    <div class="col-md-1">
+      <nav class="side-navbar shadow">
+        <div class="header-nav text-center">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/image/logo.png" alt="..." class="img-fluid" height="50" width="50">
+          </a>
+        </div>
+
+        <ul class="nav-list-item">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bi bi-speedometer"></i>
+              Dashboard
+            </a>
+          </li>
+
+          <li [ngClass]="(currentUrl === '/clients' ? 'active ' : '') + 'nav-item'">
+            <a routerLink="clients" class="nav-link w-100" role="button">
+              <i class="bi bi-person-fill"></i>
+              Clients
+            </a>
+          </li>
+
+          <li [ngClass]="(currentUrl === '/projects' ? 'active ' : '') + 'nav-item'">
+            <a routerLink="projects" class="nav-link w-100" role="button">
+              <i class="bi bi-briefcase-fill"></i>
+              Projects
+            </a>
+          </li>
+
+          <li [ngClass]="(currentUrl === '/members' ? 'active ' : '') + 'nav-item'">
+            <a routerLink="members" class="nav-link w-100" role="button">
+              <i class="bi bi-people-fill"></i>
+              Members
+            </a>
+          </li>
+
+          <li [ngClass]="(currentUrl === '/tasks' ? 'active ' : '') + 'nav-item'">
+            <a routerLink="tasks" class="nav-link w-100" role="button">
+              <i class="bi bi-file-earmark-post-fill"></i>
+              Tasks
+            </a>
+          </li>
+
+          <li [ngClass]="(currentUrl === '/tickets' ? 'active ' : '') + 'nav-item'">
+            <a routerLink="tickets" class="nav-link w-100" role="button">
+              <i class="bi bi-kanban-fill"></i>
+              Tickets
+            </a>
+          </li>
+
+          <li [ngClass]="(currentUrl === '/users' ? 'active ' : '') + 'nav-item'">
+            <a routerLink="users" class="nav-link w-100" role="button">
+              <i class="bi bi-person-circle"></i>
+              Users
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bi bi-info-circle"></i>
+              Help
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="col-md-11">
+      <div class="container-fluid ps-0 p-4">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="row g-0">
+              <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg bg-white shadow-sm rounded-2 px-3">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="nav me-auto">
+                        <li class="nav-item d-flex text-muted" style="font-weight: 500;">
+                          <a class="nav-link p-0 ps-1 text-dark" routerLink="dashboard">Dashboard</a>
+                          <a class="nav-link p-0 ps-3 text-capitalize text-primary">
+                            {{ currentUrl.replace('/', '/ ') }}
+                          </a>
+                        </li>
+                      </ul>
+
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-flex align-items-center">
+                          <a class="nav-link fw-bold active" href="#"></a>
+                        </li>
+                      </ul>
+
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3 pt-2 position-relative d-flex align-items-center">
+                          <a class="nav-link fs-5" href="#">
+                            <i class="bi bi-bell-fill"></i>
+                            <span class="badge bg-danger rounded-pill position-absolute"
+                                  style="font-size: 8px; top:10px; left: 18px">
+                            0
+                          </span>
+                          </a>
+                        </li>
+
+                        <li class="nav-item d-flex align-items-center">
+                          <a class="nav-link" href="#">
+                            <img src="/assets/image/user.jpg" height="40" width="40" class="rounded-circle" alt="">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 h-100">
+            <div class="row g-0 position-relative">
+              <div class="col-md-12 py-5">
+                <app-client [hidden]="currentUrl !== '/clients'"></app-client>
+                <app-project [hidden]="currentUrl !== '/projects'"></app-project>
+                <app-member [hidden]="currentUrl !== '/members'"></app-member>
+                <app-tasks [hidden]="currentUrl !== '/tasks'"></app-tasks>
+                <app-ticket [hidden]="currentUrl !== '/tickets'"></app-ticket>
+                <app-user [hidden]="currentUrl !== '/users'"></app-user>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

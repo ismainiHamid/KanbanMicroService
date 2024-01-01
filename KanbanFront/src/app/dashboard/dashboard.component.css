@@ -1,0 +1,100 @@
+.side-navbar {
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;;
+  background-color: #00ACC1;
+}
+
+.side-navbar .header-nav {
+  padding: 1.5rem 1rem;
+}
+
+.side-navbar .nav-list-item {
+  padding: 0;
+  margin: 0;
+}
+
+.side-navbar .nav-list-item .nav-item {
+  list-style: none;
+  margin: 0;
+  transition: .4s;
+}
+
+.side-navbar .nav-list-item .nav-item .nav-link {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 60%);
+  font-size: 1em;
+  font-weight: 500;
+  padding: .75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 10%);
+}
+
+.side-navbar .nav-list-item .nav-item:first-child .nav-link {
+  border-top: 1px solid rgba(255, 255, 255, 10%);
+}
+
+.side-navbar .nav-list-item .nav-item .nav-link > i {
+  font-size: 1.25em;
+  margin-bottom: .25rem;
+}
+
+.side-navbar .nav-list-item .nav-item:hover,
+.side-navbar .nav-list-item .nav-item.active {
+  background-color: rgba(255, 255, 255, 10%);
+}
+
+.side-navbar .nav-list-item .nav-item .nav-link:hover,
+.side-navbar .nav-list-item .nav-item.active .nav-link {
+  color: rgba(255, 255, 255, 80%) !important;
+}
+
+
+.side-navbar .nav-dropdown {
+  background-color: var(--bs-light);
+  border-radius: .25rem;
+  margin-top: .25rem;
+  padding: .5rem 0 !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.005);
+  transition: all .4s;
+}
+
+.side-navbar .nav-dropdown li {
+  list-style: none;
+}
+
+.side-navbar .nav-dropdown li {
+  padding: .35rem 1.5rem;
+  margin-bottom: .35rem;
+  color: rgba(0, 0, 0, .75);
+}
+
+.side-navbar .nav-dropdown li a.dropdown-item {
+  font-size: .95em;
+  transition: .4s;
+}
+
+.side-navbar .nav-dropdown li.active,
+.side-navbar .nav-dropdown li:hover {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, .05);
+}
+
+.side-navbar .nav-dropdown li.active a.dropdown-item {
+  font-weight: 500;
+}
+
+
+.side-navbar .nav-dropdown li a.dropdown-item i {
+  font-size: 1.25em;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 90%);
+}

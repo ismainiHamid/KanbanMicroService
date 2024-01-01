@@ -1,0 +1,86 @@
+<div class="card shadow-sm border-0">
+  <div class="card-header fw-bold border-0 bg-white fs-6">Members list</div>
+
+  <div class="card-body px-3">
+    <form action="">
+      <div class="position-relative mb-4">
+        <input class="form-control rounded-1 border-2 pe-5" style="font-size: .9em;" id="passwordInput">
+        <button type="button" ngClass="btn btn-search border-0">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </form>
+
+    <form action="">
+      <table class="table text-center border align-middle m-0">
+        <thead class="table-light">
+        <tr>
+          <th scope="col" class="text-center" style="width: 30%;">Project</th>
+          <th scope="col" class="text-center" style="width: 25%;">Post</th>
+          <th scope="col" class="text-center" style="width: 30%;">Username</th>
+          <th scope="col" class="text-center" style="width: 10%;"></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td>CIH Bank (App Mobile)</td>
+          <td>Software Engineer</td>
+          <td>ISMAINI Hamid</td>
+          <td>
+            <div class="btn-group w-100">
+              <button type="button" class="btn btn-outline-danger btn-sm">
+                <i class="bi bi-trash"></i>
+              </button>
+              <button class="btn btn-outline-warning btn-sm"><i class="bi bi-pencil"></i></button>
+            </div>
+          </td>
+        </tr>
+
+        <tr [hidden]="addMember">
+          <td>
+            <div class="input-group">
+              <select class="form-select">
+                <option value="">Project ...</option>
+              </select>
+            </div>
+          </td>
+
+          <td>
+            <div class="input-group">
+              <select class="form-select">
+                <option value="">Post ...</option>
+              </select>
+            </div>
+          </td>
+
+          <td>
+            <div class="input-group">
+              <select class="form-select">
+                <option value="">Team ...</option>
+              </select>
+            </div>
+          </td>
+
+          <td>
+            <button class="btn btn-outline-success w-100 btn-sm rounded-end-1"><i class="bi bi-floppy"></i></button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+
+  <div class="card-footer bg-white text-center px-3 pt-0 pb-3 border-0">
+    <button (click)="showForm()" class="btn btn-sm py-1 btn-create rounded-1 w-100">
+      <span [ngClass]="(addMember ? 'd-flex align-items-center justify-content-center' : '')" [hidden]="!addMember">
+        <i class="bi bi-plus me-2"></i>
+        Show form member
+      </span>
+      <span [ngClass]="(!addMember ? 'd-flex align-items-center justify-content-center' : '')" [hidden]="addMember">
+        <i class="bi bi-dash me-2"></i>
+        Hide member form
+      </span>
+    </button>
+  </div>
+</div>
